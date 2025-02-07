@@ -6,6 +6,26 @@ public class OperadoresRelacionales {
         // Igualdad ==
         var resultado = a == b;
         System.out.println("resultado a == b: " + resultado);
+        
+        // Distinto !=
+         resultado = a != b;
+         System.out.println("resultado a != b: " + resultado);
+         
+         // Mayor que >
+         resultado = a > b;
+         System.out.println("resultado a > b: " + resultado);
+         
+         // Mayor igual que >=
+         resultado = a >= b;
+         System.out.println("resultado a >= b: " + resultado);
+         
+         // Menor que <
+         resultado = a < b;
+         System.out.println("resultado a < b: " + resultado);
+         
+         // Menor igual que <
+         resultado = a <= b;
+         System.out.println("resultado a <= b: " + resultado);    
     }
     
 }
