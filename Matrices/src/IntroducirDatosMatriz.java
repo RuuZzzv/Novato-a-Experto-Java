@@ -20,8 +20,16 @@ public class IntroducirDatosMatriz {
         //Solicitar Valores
         for(int ren = 0; ren < reglones; ren++){
             for(int col = 0; col < columnas; col++){
-                System.out.print("Valor [" + ren + "][" + col + "] = " + matriz[ren][col]);
+                System.out.print("Valor [" + ren + "][" + col + "] = ");
                 matriz[ren][col] = Integer.parseInt(consola.nextLine());
+            }
+        }
+        //Iterar los valores de la matriz
+        System.out.println();
+        for(int ren = 0; ren < reglones; ren++){
+            for(int col=0; col < columnas; col++){
+                System.out.println("Matriz[" + ren + "][" + col + "] = "
+                + matriz[ren][col] + " ");
             }
         }
     }
