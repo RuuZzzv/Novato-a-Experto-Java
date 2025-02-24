@@ -1,9 +1,11 @@
+
 import java.util.Scanner;
 
 /**
- * La clase FuncionSumar demuestra cómo crear y utilizar una función que suma dos números enteros.
- * El programa solicita al usuario que ingrese dos valores enteros, llama a la función {@code sumar} para calcular la suma,
- * y luego muestra el resultado junto con los valores ingresados.
+ * La clase FuncionSumar demuestra cómo crear y utilizar una función que suma
+ * dos números enteros. El programa solicita al usuario que ingrese dos valores
+ * enteros, llama a la función {@code sumar} para calcular la suma, y luego
+ * muestra el resultado junto con los valores ingresados.
  */
 public class FuncionSumar {
 
@@ -20,15 +22,15 @@ public class FuncionSumar {
     }
 
     /**
-     * Método principal que ejecuta el programa.
-     * Este método realiza las siguientes acciones:
-     *   Solicita al usuario que ingrese dos números enteros.
-     *   Utiliza la función {@code sumar} para calcular la suma de dichos números.
-     *   Muestra el resultado de la suma y los valores ingresados en la consola.
-     * 
-     * 
+     * Método principal que ejecuta el programa. Este método realiza las
+     * siguientes acciones: Solicita al usuario que ingrese dos números enteros.
+     * Utiliza la función {@code sumar} para calcular la suma de dichos números.
+     * Muestra el resultado de la suma y los valores ingresados en la consola.
      *
-     * @param args argumentos de línea de comandos (no se utilizan en este programa).
+     *
+     *
+     * @param args argumentos de línea de comandos (no se utilizan en este
+     * programa).
      */
     public static void main(String[] args) {
         // Crear un objeto Scanner para leer la entrada del usuario desde la consola.
