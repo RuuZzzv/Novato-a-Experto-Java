@@ -18,7 +18,8 @@ public class EjemploFunciones {
     static void saludar(String mensaje) {
         System.out.println("Mensaje: " + mensaje);
     }
-
+    
+    
     /**
      * Método principal que inicia la ejecución del programa.
      * 
