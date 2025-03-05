@@ -8,7 +8,7 @@ import static java.lang.System.out;
  * Clase que representa una entidad persona con nombre y apellido.
  * Demuestra conceptos básicos de POO como encapsulamiento y métodos accesores.
  */
-public class Persona {
+public class Persona{
 
     //---------------------------------------------
     //  ATRIBUTOS (Encapsulados)
@@ -76,6 +76,14 @@ public class Persona {
      * Nombre: [valor]
      * Apellido: [valor] 
      */
+    
+    @Override
+    public String toString(){
+        return "Nombre: " + this.primerNombre 
+                + ", Apellido: " + this.apellidoPaterno
+                + ", Dir, Mem: " + super.toString();
+    }
+    
     public void mostraPersona() {
         out.println("Nombre: " + this.primerNombre);
         out.println("Apellido: " + this.apellidoPaterno);

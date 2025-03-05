@@ -63,7 +63,7 @@ public class PruebaPersona {
         //  Mostrar referencias de memoria
         //------------------------------------------------
         out.println("\n--- Referencias de objeto ---");
-        out.println("Persona1: " + persona1);
+        out.println("Persona1: " + persona1); //De manera se llama al metodo .toString sobreescrito
         out.println("Persona2: " + persona2);
     }
 }
